@@ -246,7 +246,7 @@ class App extends Component {
     this.setState(({icimliklar})=>{
       const exist = this.state.cart.filter((el)=>el.id == id)
       const temp = icimliklar.filter((el)=>el.id == id)
-      const costs = temp[0].cost
+      const costs = temp[0]git remote add origin https://github.com/Sheeyx/maxway.git.cost
       if(exist.length !== 0){
         const index = this.state.cart.findIndex(item=> item.id == id)
         const newArr = {...this.state.cart[index], count:this.state.cart[index].count+1,cost:this.state.cart[index].cost+costs}
