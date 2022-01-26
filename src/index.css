@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter','Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.inner__container {
+  max-width: 1110px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0 40px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 0;
+  margin: 0;
+}
+
+button{
+  cursor: pointer;
+}

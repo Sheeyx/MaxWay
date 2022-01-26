@@ -1,0 +1,75 @@
+.footer{
+    padding:125px 0 0 0;
+    &__content{
+        display:flex;
+        justify-content: space-between;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #979797;;
+        &--info{
+            width: 5%;
+            display:flex;
+            justify-content:space-between;
+            .logo{
+
+            }
+            .asosiy{
+            }
+            .qoshimca{
+                
+            }
+        }
+
+        &--text{
+            width: 40%;
+            display: flex;
+            justify-content: space-around;
+            h2{
+                font-size: 20px;
+                line-height: 18px;
+                color: #003846;
+                margin-bottom: 24px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 34px;
+                color: #222124;
+            }
+        }
+        &--contact{
+            width: 25%;
+            float:right;
+            h2{
+                font-family: 'Inter';
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 18px;
+                margin-bottom: 33px;
+            }
+            p{
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 25px;
+                margin-bottom: 13px;
+            }
+
+            span{
+                font-family: 'Inter';
+                width: 286px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                color: #222124;
+            }
+        }
+    }
+    &__social{
+        padding:27px 0 24px 0 ;
+        display: flex;
+        justify-content: space-between;
+        .media{
+            a{
+                margin-right: 24px;
+            }
+        }
+    }
+}

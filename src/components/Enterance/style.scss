@@ -1,0 +1,46 @@
+.entarance{
+    padding-bottom: 80px;
+    .text{
+        font-family: 'Inter';
+        color: #222124;
+        padding-top: 100px;
+        h1{
+
+            font-weight: 900;
+            font-size: 80px;
+            line-height: 85px;
+            margin-bottom: 14px;
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+            margin-bottom: 66px;
+        }
+    }
+
+    .images {
+        display: flex;
+        align-items: center;
+        .yellow{
+            margin-right: 30px;
+        }
+    }
+    
+}
+
+.left {
+    position: absolute;
+    width: 42vw;
+    right: 0;
+    top: 0;
+    height: 800px;
+    background-color:#800A7A;
+    &__burger{
+        position: absolute;
+        top: 130px;
+        left: -250px;
+    }
+}
+

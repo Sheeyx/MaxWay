@@ -1,0 +1,61 @@
+.advert {
+    .inner__container{
+        position: relative;
+        display: flex;
+        background-color: transparent;
+    }
+    padding: 75px 0 94px 0;
+    background-color: #800A7A;
+    &__content{
+        h2{
+            width: 50%;
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 52px;
+            color: #FFFFFF;
+            margin-bottom:61px;
+        }
+
+        &--btn{
+            display:flex;
+            button{
+                background: #800A7A;
+                padding:16px 33px;
+                border:none;
+                border: 1px solid rgba(255, 255, 255, 0.292941);
+                box-sizing: border-box;
+                backdrop-filter: blur(27.1828px);
+                border-radius: 46px;
+                display:flex;
+                align-items:center;
+                margin-right:30px;
+                img{
+                    margin-right:22px;
+                }
+                p{
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 24px;
+                    color: #FFFFFF;
+                    span{
+                        font-weight:300;
+                        font-size:20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .phone{
+       position: absolute;
+       top: -220px;
+       right: -100px;
+    }
+    .line{
+        position: absolute;
+        right: -250px;
+    }
+
+    
+
+}

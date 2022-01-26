@@ -1,0 +1,64 @@
+.card{
+    font-family: 'Inter';
+    color: #222124;
+    margin-bottom: 30px;
+    &__items{
+        width: 540px;
+        height: 230px;
+        padding: 30px;
+        border: 1px solid rgba(151, 151, 151, 0.181927);
+        box-sizing: border-box;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        &--img{
+            display: flex;
+            align-items: center;
+        }
+        &--info{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            margin-left: 40px;
+            .head{
+                display: flex;
+                margin-bottom: 10px;
+                h2{
+                    font-weight: 500;
+                    font-size: 24px;
+                }
+                img{
+                    margin-left: 16px;
+                }
+            }
+            .text{
+                margin-bottom: 13px;
+                p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    mix-blend-mode: normal;
+                    opacity: 0.4;
+                }
+            }
+            .bottom{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                p{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+                button{
+                    color: #fff;
+                    font-size: 36px;
+                    width: 50px;
+                    height: 50px;
+                    border: none;
+                    border-radius: 50%;
+                    background: #F1B301;
+                }
+            }
+        }
+    }
+}

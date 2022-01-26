@@ -1,0 +1,15 @@
+.pizza {
+    padding: 105px 0 0 0;
+    h1{
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 52px;
+        color: #222124;
+    }
+    &__items{
+        padding: 30px 0 105px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
